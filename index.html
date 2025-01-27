@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="content-wrapper">
+    <div class="page-wrapper">
         <div class="hero">
             <div class="logo">
                 <img src="./res/odin-lined.png" alt="">
@@ -19,36 +19,51 @@
             <p class="credit">Photo by Halie West on Unsplash</p>
         </div>
         <div class="content">
-            <div class="testimony">
-
+            <div class="testimonial">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
             </div>
-            <div class="form-fields">
-                <form>
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name">
+            <form id="form-fields">
+                <p>Let's do this!</p>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name">
+                    </div>
+                    <div class="form-element">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="" id="email">
+                    </div>
+                    <div class="form-element">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="" id="phone-number">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="" id="password">
+                    </div>
+                    <div class="form-element">
+                        <label for="password-confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="" id="password-confirm">
+                    </div>
+                </div>
+            </form>
 
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name">
-
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="" id="email">
-
-                    <label for="phone-number">PHONE NUMBER</label>
-                    <input type="tel" name="" id="phone-number">
-
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="" id="password">
-
-                    <label for="password-confirm">CONFIRM PASSWORD</label>
-                    <input type="password" name="" id="password-confirm">
-                </form>
+            <div class="submit-section">
+                <button class="submit" type="submit" for="form-fields">Create Account</button>
+                <p>Already have an account? <a href="www.fake@fake.fake">Log in</a></p>
             </div>
-        </div>
-        <div class="submit-section">
-            <button class="submit" type="submit" for="">
-                SUBMIT
-            </button>
-            <p>Already have an account? <a href="www.fake@fake.fake">Log in</a></p>
         </div>
     </div>
 </body>
